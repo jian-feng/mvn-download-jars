@@ -9,11 +9,8 @@
 Files in this tool
 ======
 
-- pom.xml
-   A normal maven Pom which contains dependencies you need to download
-- settings.xml
-   A maven settings file which defined remote repository you need to download from.
-   Here we defined 2 maven repo, Maven Central by maven.org and Jboss Central by redhat. In most case, these 2 remote repo is enough.
+- pom.xml   :A normal maven Pom which contains dependencies you need to download
+- settings.xml    :A maven settings file which defined remote repository you need to download from. Here we defined 2 maven repo, Maven Central by maven.org and Jboss Central by redhat. In most case, these 2 remote repo is enough.
 - README.txt
 
    
