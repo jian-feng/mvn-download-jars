@@ -3,6 +3,7 @@
 2. How this tool works
 3. Limitation
 4. Example usage
+
 -------
 
 Files in this tool
@@ -50,5 +51,5 @@ Example usage
 export Nexus_Local_Storage_Location=~/jboss/vagrant/install/nexus-repo/others
 rm -r target
 mvn dependency:go-offline --settings=./settings.xml -Dmaven.repo.local=target
-cp -R ./localrep/ ${Nexus_Local_Storage_Location}/
+cp -R ./target/ ${Nexus_Local_Storage_Location}/
 ```
